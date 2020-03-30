@@ -1,2 +1,3 @@
 # whack-a-mole
-Whack -A-Mole Game
+a basic whack a mole game - part of newton school assignment
+
