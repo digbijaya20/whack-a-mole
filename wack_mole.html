@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="wack_mole.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    
+    <title>Whcak-A-Mole</title>
+  </head>
+  <body style="background-color: #fdfff0">
+    <h1 class="title"  id="title-name">🎮Whack-A-Mole🎮</h1>
+    <div class="game">
+      <div class="buttons">
+        <a href="#board"><button type="button" name="button" class="start-button btn-focus" id="start">Start</button></a>
+        <a href="#title-name"><button type="button" name="button" class="stop-button btn-focus" id="stop">Stop</button></a>
+      </div>
+
+      <div class="points-board">
+
+      </div>
+
+      <table id="board">
+        <tr>
+          <td id="1" onmousedown="checkEvent(1)"></td>
+          <td id="2" onmousedown="checkEvent(2)"></td>
+          <td id="3" onmousedown="checkEvent(3)"></td>
+        </tr>
+        <tr>
+          <td id="4" onmousedown="checkEvent(4)"></td>
+          <td id="5" onmousedown="checkEvent(5)"></td>
+          <td id="6" onmousedown="checkEvent(6)"></td>
+        </tr>
+        <tr>
+          <td id="7" onmousedown="checkEvent(7)"></td>
+          <td id="8" onmousedown="checkEvent(8)"></td>
+          <td id="9" onmousedown="checkEvent(9)"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script type="text/javascript" src="wack_mole.js"></script>
+</html>
